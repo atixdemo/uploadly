@@ -1,0 +1,32 @@
+
+.root {
+  border-collapse: collapse;
+  min-width: 80%;
+
+  th {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 700;
+    white-space: nowrap;
+    padding: 1rem 0rem;
+  }
+
+  td {
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+    position: relative;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    
+  }
+
+  tbody {
+    tr {
+      &:hover {
+        td {
+          background-color: rgba(#fff, 0.1);
+        }
+      }
+    }
+  }
+}
