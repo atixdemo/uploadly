@@ -22,7 +22,12 @@ The project is bootstrapped with [`create-next-app`](https://github.com/vercel/n
 
 ## Getting Started
 
-First, run the development server:
+Install de dependencies
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
