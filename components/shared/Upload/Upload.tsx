@@ -81,12 +81,13 @@ const Upload = () => {
       <div>
         <input
           ref={inputEl}
+          className={styles.input}
           onChange={handleFileChange}
           name="file"
           type="File"
           id="file"
         />
-        <button disabled={!file} onClick={handleUpload}>
+        <button disabled={!file} className={styles.button} onClick={handleUpload}>
           Upload
         </button>
       </div>
